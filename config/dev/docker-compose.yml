@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  dev_service:
+    image: busybox
+    command: echo "Development service running"
+    container_name: dev_service

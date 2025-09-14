@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  prod_service:
+    image: busybox
+    command: echo "Production service running"
+    container_name: prod_service

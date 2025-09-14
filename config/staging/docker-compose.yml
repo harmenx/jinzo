@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  staging_service:
+    image: busybox
+    command: echo "Staging service running"
+    container_name: staging_service
